@@ -1,3 +1,4 @@
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,114 @@
 
 .read-the-docs {
   color: #888;
+}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap");
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.title,
+.boxDigitalReloj {
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-size: 40px;
+  font-style: normal;
+}
+
+.painting {
+  width: 650px;
+  height: 450px;
+  background: #f8dde1;
+  padding: 10px;
+}
+
+.breack,
+.session {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+}
+
+.box {
+  background: #f8dde1;
+  border: 5px solid white;
+  border-color: white;
+  padding: 0px;
+  margin: 0 10px; /* Espacio entre los divs horizontalmente */
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.boxButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8dde1;
+  border: 5px solid white;
+  border-color: white;
+  padding: 10px;
+  margin-left: 10px; /* Espacio entre los divs horizontalmente */
+  width: 100px;
+  text-align: center;
+}
+
+.digital {
+  border-radius: 50px;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Dancing Script";
+  font-weight: bold;
+  color: rosybrown;
+  padding: 10px;
+  margin: 0 10px; /* Espacio entre los divs horizontalmente */
+  width: 30px;
+  height: 30px;
+}
+
+.lineButtonTop {
+  display: flex; /* Activa el modelo Flexbox */
+  justify-content: space-between; /* Distribuye los elementos a lo largo de la línea */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 10px; /* Espacio interno */
+}
+
+.lineButtonEnd {
+  display: flex; /* Activa el modelo Flexbox */
+  justify-content: center; /* Distribuye los elementos a lo largo de la línea */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 10px; /* Espacio interno */
+}
+
+.lineReloj {
+  display: flex; /* Activa el modelo Flexbox */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  justify-content: center;
+  padding: 0px; /* Espacio interno */
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Ancho del círculo */
+  height: 300px; /* Alto del círculo */
+  background-color: pink; /* Color de fondo del círculo */
+  border-radius: 50%; /* Redondear bordes para formar un círculo */
 }
