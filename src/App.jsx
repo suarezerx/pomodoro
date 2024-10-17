@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import PomodoroTimer from "./components/PomodoroTimer";
+import PomodoroTimer from "./components/PomodoroTimer/PomodoroTimer";
 
 function App() {
   return (
