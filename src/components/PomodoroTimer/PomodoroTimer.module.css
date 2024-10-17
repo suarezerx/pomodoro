@@ -1,0 +1,22 @@
+.lineButtonTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-size: 40px;
+  font-style: normal;
+}
+
+.painting {
+  width: 650px;
+  height: 450px;
+  background: #f8dde1;
+  padding: 10px;
+}

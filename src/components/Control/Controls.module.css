@@ -1,0 +1,20 @@
+.lineButtonEnd {
+  display: flex; /* Activa el modelo Flexbox */
+  justify-content: center; /* Distribuye los elementos a lo largo de la línea */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 10px; /* Espacio interno */
+}
+
+.boxButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8dde1;
+  border: 5px solid white;
+  border-color: white;
+  padding: 10px;
+  margin-left: 10px; /* Espacio entre los divs horizontalmente */
+  width: 100px;
+  text-align: center;
+}

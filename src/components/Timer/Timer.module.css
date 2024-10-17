@@ -1,0 +1,27 @@
+.lineReloj {
+  display: flex; /* Activa el modelo Flexbox */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  justify-content: center;
+  padding: 0px; /* Espacio interno */
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px; /* Ancho del círculo */
+  height: 250px; /* Alto del círculo */
+  background-color: pink; /* Color de fondo del círculo */
+  border-radius: 50%; /* Redondear bordes para formar un círculo */
+  padding: 0px;
+  margin: 0px;
+}
+
+.boxDigitalReloj {
+  margin-top: 5px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-size: 40px;
+  font-style: normal;
+}
