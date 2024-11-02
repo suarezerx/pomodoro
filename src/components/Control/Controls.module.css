@@ -10,11 +10,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: #f8dde1;
+  /*background: #f8dde1;
   border: 5px solid white;
-  border-color: white;
+  border-color: white;*/
   padding: 10px;
   margin-left: 10px; /* Espacio entre los divs horizontalmente */
-  width: 100px;
+  width: 120px;
   text-align: center;
 }
